@@ -1,0 +1,3 @@
+1. Does not account for outputs larger than 10k characters. Workaround: trial-and-error splitting of rows to get under character limit per comment. Be sure to add table header to each subsequent comment.
+2. Takes several minutes to complete. Not sure how much is due to reddit API and how much is processing time.
+3. Does not take into account certain markups in comments: links in OP's comments, quotes in comments, or multiple paragraphs in comments (I think I know how to fix this one).
